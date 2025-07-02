@@ -26,5 +26,20 @@
             <version>4.0.0-alpha-3</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.8.0</version> <!-- oder aktuelle Version -->
+        </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <!-- Surefire Plugin zum Ausführen der Tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.5</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

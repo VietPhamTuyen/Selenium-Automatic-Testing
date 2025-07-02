@@ -1,4 +1,4 @@
-package mk.ukim.finki.seleniumtesting;
+package beispiel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
